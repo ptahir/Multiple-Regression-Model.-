@@ -90,7 +90,7 @@ Interpretation of Intercept
 • Intercept (~54,028):
 This is the model’s baseline predicted profit when all input features (spending and state) are zero — essentially the starting value before other factors contribute.
 
-📌 Interpretation of Model Performance
+Interpretation of Model Performance
 
 • R² Score (~0.90):
 The model explains about 90% of the variation in profit — meaning the input features (R&D, Administration, Marketing, State) collectively do a very good job predicting profit.
@@ -100,5 +100,47 @@ On average, the squared difference between actual and predicted profits is ~82 m
 
 Actual vs Predicted Plot 
 <p align="center">
-  <img src="https://github.com/ptahir/Simple-Linear-Regression.-/blob/main/actualvspredicted.png" width="1000">
+  <img src="https://github.com/ptahir/Multiple-Regression-Model.-/blob/main/actualvspredicted.png" width="600">
 </p>
+
+Top Predicted Company
+
+The model identifies the company with:
+
+High R&D, Administration, and Marketing Spend
+
+Located in New York
+
+It has the highest predicted profit:
+
+Actual Profit: $192,262
+
+Predicted Profit: $191,914
+
+The close match shows the model’s prediction is accurate and reliable.
+
+Interpretation: Predicted Profit for Future Company
+
+The model predicts a profit of $182,262 for a hypothetical new company with specified R&D, Administration, Marketing, and State values.
+
+This means:
+
+Based on the input features you provided (e.g., spending and state),
+
+The model estimates the company would earn about $182,262 in profit.
+
+This shows how the model can be used to forecast profit for new scenarios before real decisions are made. 
+
+Conclusion: 
+
+This project demonstrates how Multiple Linear Regression can be applied to real business data to understand and predict company profits. By analyzing the impact of R&D Spend, Administration, Marketing Spend, and State of operation, the model:
+
+• Learns meaningful patterns that explain about 90% of variation in profit (high R²).
+
+• Identifies which features contribute most to profit, helping inform strategic decisions.
+
+• Produces predictions that align closely with actual values, showing reliable performance.
+
+• Can forecast profit for new hypothetical companies based on spending and location.
+
+Overall, this analysis highlights the value of regression modeling for insightful, data-driven decision-making and offers a practical example of how machine learning can support business planning and resource allocation.
