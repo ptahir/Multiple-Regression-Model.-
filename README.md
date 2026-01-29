@@ -71,9 +71,22 @@ For example (hypothetical values):
 
 R&D Spend → 0.805630 Strong Positive impact
 
+<p align="center">
+  <img src="https://github.com/ptahir/Multiple-Regression-Model.-/blob/main/R&Dspendvsprofit.png" width="600">
+</p>
+
+
 Marketing Spend →  0.029855 Moderate positive impact
 
+<p align="center">
+  <img src="https://github.com/ptahir/Multiple-Regression-Model.-/blob/main/marketingspendvsprofit.png" width="600">
+</p>
+
 Administration → -0.068788 Weak or negative impact
+
+<p align="center">
+  <img src="https://github.com/ptahir/Multiple-Regression-Model.-/blob/main/administrationvsprofit.png" width="600">
+</p>
 
 State dummies → Indicates state-specific effects
 
@@ -84,6 +97,9 @@ Interpretation of State Coefficients
 • State_New York (≈ 7.0): Being in New York is associated with only $7 higher predicted profit versus California, after accounting for other features.
 
 These values show how location affects predicted profit relative to the baseline state.
+<p align="center">
+  <img src="https://github.com/ptahir/Multiple-Regression-Model.-/blob/main/statewise profit distribution.png" width="600">
+</p>
 
 Interpretation of Intercept
 
